@@ -4,7 +4,7 @@ import numpy as np
 import datetime
 
 
-st.title("COVID-19!")
+st.title("Interactive COVID-19 Dashboard for Case Counts")
 
 confirmed_df = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/refs/heads/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
 confirmed_df_1 = confirmed_df.drop(columns=['Province/State', 'Lat', 'Long'])
